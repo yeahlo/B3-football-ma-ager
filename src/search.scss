@@ -1,0 +1,48 @@
+.Search {
+  border : 10px solid black;
+  width: 15vw;
+  padding: 1vw 1vw 1vw 1vw;
+  display: flex;
+  flex-direction: column;
+
+  label {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+
+  input {
+    border : 0;
+    line-height: 2.3em;
+    font-size: 2.3em;
+    height : 2.3em;
+    font-weight: bold;
+    background-color: white;
+    padding: 0 0 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border : 2px solid black;
+  }
+
+  .Search_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    button {
+      background: black;
+      border : 0;
+      border-top : 5px solid white;
+      border-bottom : 5px solid white;
+      color : white;
+      font-size: 2em;
+      line-height: 2em;
+      font-weight: bold;
+      width: 100%;
+
+      &:hover {
+        background: #feb511;
+        color : black;
+      }
+    }
+  }
+}
